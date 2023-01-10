@@ -4,7 +4,12 @@
 
 3. 2.28.1
 
-4. There is difference of requests version between the version installed globally and version installed 
+4. There is difference of requests version between the version installed globally and version installed. 
 
 5. We get status code 301. In order to get 200 status code, we must visit  https://www.google.com/
 
+6. I get the code 418. If i curl it, it will be sent back to html with the error message.
+
+7. REQUEST_METHOD also shows up as POST. Post method is useful for sending data because it is not cached.
+
+8. https://raw.githubusercontent.com/harshpp707/404-lab01/main/version_requests.py
